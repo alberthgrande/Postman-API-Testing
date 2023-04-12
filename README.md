@@ -121,49 +121,6 @@
             "customerName": "John"
             }
 
-## 🌟 View existing orders
-
-    📌 Get /orders
-        ➡️ Allow to view an existing order. Requires authentication.
-
-## 🌟 Assignment
-
-    📌 Get /orders/:orderId
-        ➡️ Allows you to view an existing order. Requires authentication.
-
-## 🌟 PATCH / Update request
-
-    📌 Update an order
-        ➡️ PATCH /orders/:orderId
-
-        ➡️Update an existing order. Requires authentication.
-
-        ➡️The request body needs to be in JSON format and allows you to update the following properties:
-
-        ➡️ customerName ➡️ String
-
-           📌 Example
-
-            PATCH /orders/PF6MflPDcuhWobZcgmJy5
-            Authorization: Bearer <YOUR TOKEN>
-
-            {
-            "customerName": "John"
-            }
-
-## 🌟 Delete request
-
-    📌 DELETE /orders/:orderId
-
-        ➡️ Delete an existing order. Requires authentication.
-
-        ➡️ The request body needs to be empty.
-
-            📌 Example
-
-                DELETE /orders/PF6MflPDcuhWobZcgmJy5
-                Authorization: Bearer <YOUR TOKEN>
-
 ### 🌟 Resources
 
     🔗 Youtube Link: https://www.youtube.com/watch?v=VywxIQ2ZXw4
